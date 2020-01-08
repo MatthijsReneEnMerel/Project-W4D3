@@ -20,15 +20,31 @@
   background-color: #007bb6;
 }
 
+.social-media-container {
+  position: fixed;
+  top: 150px;
+  left: calc(100% - 100px);
+}
 .social-media {
-  width: 60px;
   position: relative;
-  left: 1400px;
+  align-items: center;
+  display: flex;
+  transition: transform 1500ms ease-in-out;
+  height: 75px;
+  padding: 0 20px;
+}
+.social-media i {
 }
 
+.social-media a {
+  color: #fff;
+  padding: 0 90px;
+  text-decoration: none;
+  display: inline-flex;
+  white-space: nowrap;
+}
 .social-media:hover {
-  transition: width 2s ease-in-out;
-  width: 150px;
+  transform: translateX(calc(-100% + 100px));
 }
 
 .fa-laptop-code::before {
@@ -55,9 +71,3 @@
 ul {
   list-style: none;
 }
-
-.social-media-container {
-  left: calc(100% - 60px);
-}
-
-transition: transform 0.3s ease-in-out;
