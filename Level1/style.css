@@ -1,0 +1,49 @@
+body {
+  background-color: #c3cfe2;
+}
+
+.container {
+  width: 300px;
+  height: 450px;
+}
+
+.maintext {
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: -2px 23px 28px 1px rgba(168, 168, 168, 1);
+}
+
+.maintext p {
+  padding: 20px;
+}
+
+.cat img {
+  height: 100px;
+  border-radius: 200px;
+  transform: translateY(20px);
+  padding: 5px;
+  background-color: #fff;
+  margin: 0px;
+}
+
+.nameCat {
+  background-color: #686de0;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+  height: 100px;
+  padding-top: 50px;
+}
+
+.nameCat h3 {
+  color: #fff;
+}
+
+.nameCat a {
+  color: #c3cfe2;
+  text-decoration: none;
+}
+
+.cat {
+  margin: -30px;
+}
